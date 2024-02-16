@@ -4,17 +4,43 @@
 
 body {
   margin: 0;
+  font-family: 'poppins', 'sans serif';
 }
 
 nav {
   display: flex;
   color: #ffffff;
   height: 70px;
-  /* background-color: #000000; */
   padding: 20px 36px;
   box-shadow: 00px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 nav > img {
   max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8; */
+}
+
+.Hero-Image {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero-header {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  margin-top: 0;
 }
