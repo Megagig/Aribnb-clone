@@ -7,10 +7,14 @@ body {
 }
 
 nav {
+  display: flex;
   color: #ffffff;
+  height: 70px;
+  /* background-color: #000000; */
+  padding: 20px 36px;
+  box-shadow: 00px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 nav > img {
-  width: 70px;
-  height: 60px;
+  max-width: 100px;
 }
